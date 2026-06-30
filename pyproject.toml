@@ -1,0 +1,13 @@
+[project]
+name = "pulse-radar"
+version = "0.1.0"
+description = "PulseRadar — AI 盘中异动雷达，实时扫描全市场 A 股异动信号"
+requires-python = ">=3.12"
+dependencies = [
+    "akshare>=1.18.64",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]

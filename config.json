@@ -1,0 +1,63 @@
+{
+  "poll_interval": 300,
+  "push_threshold": 60,
+  "sensitivity": "medium",
+  "auto_stop_after_close": true,
+  "watchlist_report_interval": 300,
+  "filters": {
+    "exclude_st": true,
+    "min_market_cap": 2000000000,
+    "min_daily_turnover": 50000000,
+    "min_turnover_rate": 0.3
+  },
+  "watchlist": {
+    "enabled": true,
+    "stocks": [
+      {
+        "code": "603986",
+        "name": "兆易创新",
+        "stop_loss": 85.0,
+        "target_price": 120.0
+      },
+      {
+        "code": "002240",
+        "name": "盛新锂能",
+        "stop_loss": null,
+        "target_price": null
+      },
+      {
+        "code": "002497",
+        "name": "雅化集团",
+        "stop_loss": null,
+        "target_price": null
+      },
+      {
+        "code": "002738",
+        "name": "中矿资源",
+        "stop_loss": null,
+        "target_price": null
+      },
+      {
+        "code": "603399",
+        "name": "永杉锂业",
+        "stop_loss": null,
+        "target_price": null
+      }
+    ],
+    "push_threshold": 30,
+    "midday_summary": true
+  },
+  "notifications": {
+    "desktop": true,
+    "daxiang": false,
+    "email_summary": false,
+    "sound": true
+  },
+  "output_dir": "./output",
+  "trading_hours": {
+    "morning_start": "09:25",
+    "morning_end": "11:30",
+    "afternoon_start": "13:00",
+    "afternoon_end": "15:05"
+  }
+}
